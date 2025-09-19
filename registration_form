@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Register</title>
+</head>
+<body>
+  <center>
+    <h1>CodeStrom Challenge</h1>
+    <h5>Let’s build your dreams together</h5>
+    <p>Gear up for CodeStorm Challenge—where your logic becomes your weapon and every problem is a chance to shine!</p>
+  </center>
+  <hr>
+  <center>
+    <h1>Registration Form</h1>
+    <form>
+      <table>
+        <tr>
+          <td>Name:</td> <td><input type="text" placeholder="Enter Your Name"></td>
+        </tr>
+        <tr>
+          <td>Age:</td> <td><input type="number" placeholder="Enter Your Age"></td>
+        </tr>
+        <tr>
+          <td>Gender:</td> 
+          <td>
+            <input type="radio" name="Gender">Male
+            <input type="radio" name="Gender">Female
+          </td>
+        </tr>
+        <tr>
+          <td>Email:</td> <td><input type="email" placeholder="Enter Your Email"> </td>
+        </tr>
+        <tr>
+          <td>Select a Course</td>
+          <td>
+            <select>
+              <option>Python Programming</option>
+              <option>Java</option>
+              <option>C++</option>
+              <option>go</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Upload Your Resume</td>
+          <td>
+            <input type="file">
+          </td>
+        </tr>
+        <tr>
+          <td><input type="reset"></td>
+          <td><input type="submit"></td>
+        </tr>
+      </table>
+    </form>
+  </center>
+</body>
+</html>
